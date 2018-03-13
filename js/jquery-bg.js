@@ -1,0 +1,1 @@
+!function(a){"use strict";function b(){var a=Math.floor(360*Math.random());c.css({filter:"hue-rotate("+a+"deg)","-webkit-filter":"hue-rotate("+a+"deg)","-moz-filter":"hue-rotate("+a+"deg)","-o-filter":"hue-rotate("+a+"deg)","-ms-filter":"hue-rotate("+a+"deg)"}),setTimeout(b,d)}var c=a("#bg"),d=3e5;setTimeout(b,1e3)}(jQuery);
